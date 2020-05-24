@@ -1,0 +1,7 @@
+Need to perform tests on 
+1 - creating the database
+2 - inserting into the database
+3 - reading from database
+4 - inserting via APIs
+5 - reading via APIs
+
