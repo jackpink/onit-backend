@@ -10,7 +10,6 @@ const createRoadmap = (req, res) => {
       res.send(error ? error.stack : { user: result });
     }
   );
-  db.pool.end();
 };
 
 module.exports = {
