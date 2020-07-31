@@ -6,7 +6,7 @@ const roadmap = require("./roadmap.js");
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.listen(3000);
+app.listen(process.env.PORT || 5000);
 
 app.get("/api/roadmaps/", roadmaps.getAllRoadmaps);
 
